@@ -20,6 +20,7 @@
         <br />
      
         Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
+       
                   
         <br /><br />      
         
@@ -40,7 +41,9 @@
                 
         Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label>
         
-        <br /><br />
+        <br />
+        <br />
+        Welcome to my mortgage calculator. Please complete the fields above to have your monthly payment and loan repaymenty schedule calculated for you.<br /><br />
         
         <asp:GridView ID="loanGridView" runat="server" />
             
