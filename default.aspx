@@ -9,11 +9,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div style="background-color: #FF7673; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: large;">
+    
+        <br />
     
         Alex's Mortgage Calculator
         
-        <br /><br />
+        <br />
+     
+        <br />
      
         Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
                   

@@ -1,0 +1,101 @@
+body { 	color: #FF0700;
+		font-family: Gill Sans, Verdana, Helvetica, sans-serif;
+		font-size: 10pt;
+		margin: 0 auto; 
+	}
+h1.title {
+			font-size: 36pt;
+			font-variant: small-caps;
+			font-weight: bold;
+			text-align:center;
+			margin-top: 15px;
+			margin-bottom: 0px; 
+		}
+
+h2.titletop {
+			font-size: 14pt;
+			font-weight: normal;
+			text-decoration: underline;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-bottom: 25px;
+			}
+
+h2.title {
+			font-size: 14pt;
+			font-weight: normal;
+			text-decoration: underline;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}	
+ul { margin:0px; padding:0; list-style:none; }
+li { margin-left:20px; margin-bottom:20px; padding:0;  }
+
+a { text-decoration:none; font-weight: bold; }
+a:link, a:visited { color: #fff; }	
+	
+#wrap {width:1240px; margin:0 auto; background:#FF0700; border-left: solid 2px black; border-right: solid 2px black;  }
+
+#header { background:#ddd; padding:5px 10px;  }
+
+#nav { background:#FF0700; padding:5px 10px; text-align:center; }
+#nav li  { display: inline; list-style-type: none; padding-right: 20px; font-size: 14pt; font-weight:normal; font-variant:small-caps;}
+
+#main {background:#FF0700; float:left; width:580px; padding-top:0px; padding-left:10px; padding-right:10px; padding-bottom:10px; margin-bottom:0; height:3050px; }
+
+#left_sidebar { background:#FF0700; float:left; width:300px; padding:10px; }
+
+#right_sidebar { background:#FF0700; float:left; width:300px; padding:10px; }
+
+#footer { background:#cc9; clear:both; padding:5px 10px; }
+#footer p { margin:0; font-style:italic; text-align:center; font-size:small; }
+
+/* Star hack for IE 6 bug */
+* html #footer { height:1px; }
+
+/* Resume formatting */
+
+#resume {background:#FF0700; width:900px; margin:auto; padding:20px; text-align:left; }
+
+table { border-collapse:collapse; width:80%; margin-left:75px; }
+table,th, td { border: 1px solid green; }
+th { height:30px; background-color:yellow; color:white; text-align:center; vertical-align:middle; padding:15px;} 
+th.coursename { text-align:left;}
+td { text-align:center; height:30px; vertical-align:middle; padding:5px;}
+td.coursename { text-align:left;}
+caption { text-align:left;}
+
+a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	
+a:hover, a:hover.resume { color: #fff; background-color: #036; text-decoration: underline; }	
+
+.printonly { display:none; }
+.pagebreak { display:none; }
+#printheader { display:none; }
+
+.title2 {
+			font-size: 14pt;
+			font-weight: normal;
+			text-decoration: none;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}
+
+
+		
+/* Photo formatting */
+
+.polaroid {
+			border: solid 1px black; 
+			background: #fff;
+			width: 250px;
+			padding: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
